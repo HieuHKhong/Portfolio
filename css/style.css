@@ -190,7 +190,6 @@
 
 .projectTab a img {
     max-width: 75%;
-    margin-bottom: 15%;
     box-shadow: 2px 3px 3px black;
     transition: transform 0.3s ease;
     border-radius: 5%;
@@ -248,6 +247,17 @@
 }
 
 .email a:hover{
+    text-decoration: solid;
+    color: #0576b3;
+}
+
+.row .codeLink a{
+    text-decoration: none;
+    color: #003049;
+    font-size: 25px;
+}
+
+.codeLink a:hover {
     text-decoration: solid;
     color: #0576b3;
 }
